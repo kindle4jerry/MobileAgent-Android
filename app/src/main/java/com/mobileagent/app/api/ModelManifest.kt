@@ -22,10 +22,10 @@ object ModelManifest {
         val totalBytes: Long get() = base.sizeBytes + mmproj.sizeBytes
     }
 
-    private const val MINICPM_REPO = "https://huggingface.co/ggml-org/MiniCPM-V-4.6-GGUF/resolve/main"
-    private const val QWEN3_REPO   = "https://huggingface.co/Qwen/Qwen3-VL-2B-Instruct-GGUF/resolve/main"
-    private const val QWEN2_REPO   = "https://huggingface.co/ggml-org/Qwen2-VL-2B-Instruct-GGUF/resolve/main"
-    private const val SMOL_REPO    = "https://huggingface.co/ggml-org/SmolVLM2-2.2B-Instruct-GGUF/resolve/main"
+    private const val MINICPM_REPO = "https://hf-mirror.com/ggml-org/MiniCPM-V-4.6-GGUF/resolve/main"
+    private const val QWEN3_REPO   = "https://hf-mirror.com/Qwen/Qwen3-VL-2B-Instruct-GGUF/resolve/main"
+    private const val QWEN2_REPO   = "https://hf-mirror.com/ggml-org/Qwen2-VL-2B-Instruct-GGUF/resolve/main"
+    private const val SMOL_REPO    = "https://hf-mirror.com/ggml-org/SmolVLM2-2.2B-Instruct-GGUF/resolve/main"
 
     val QWEN3_VL_2B = ModelEntry(
         id          = "qwen3-vl-2b",
